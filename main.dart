@@ -1,7 +1,7 @@
-import 'src/hard/valid_number.dart';
+import 'src/hard/best_time_to_buy_and_sell_stock_iv.dart';
 
 void main() {
-  final a = "e123";
-  final b = a.split("e");
-  print(a);
+  final Solution solution = Solution();
+  final result = solution.maxProfit(2, [2, 4, 1]);
+  print(result);
 }
